@@ -1,0 +1,46 @@
+.root {
+  background-color: white;
+  border-radius: 0.3rem;
+  border: 1px solid #e0e0e0;
+  padding: 1rem;
+
+  h3 {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+  .items {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .item {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.8rem;
+
+    button {
+      flex-shrink: 0;
+    }
+
+    .avatar {
+      width: 3rem;
+      height: 3rem;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+
+    .name {
+      font-weight: bold;
+    }
+
+    button {
+      text-align: left;
+    }
+
+    .button {
+      width: auto;
+      margin: 0.3rem 0 0;
+    }
+  }
+}

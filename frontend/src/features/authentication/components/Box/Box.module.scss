@@ -1,0 +1,10 @@
+.root {
+  @media screen and (width >= 768px) {
+    padding: 1.5rem;
+    width: 30rem;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 0.5rem;
+  }
+}

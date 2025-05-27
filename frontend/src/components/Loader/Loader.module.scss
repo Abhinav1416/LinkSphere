@@ -1,0 +1,74 @@
+.global {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  img {
+    width: 10rem;
+    margin: 0 auto;
+    height: auto;
+    margin-top: 12rem;
+  }
+
+  .container,
+  .content {
+    height: 0.1rem;
+    width: 10rem;
+    border-radius: 9999px;
+  }
+
+  .container {
+    margin-top: 1rem;
+    background-color: rgb(255 255 255);
+  }
+
+  .content {
+    width: 4rem;
+    background-color: var(--primary-color);
+    animation: slide 1s infinite alternate;
+  }
+
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(6rem);
+    }
+  }
+}
+
+.inline {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  padding-top: 1rem;
+
+  span {
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    animation: bounce 0.4s infinite alternate;
+  }
+
+  span:nth-child(2) {
+    animation-delay: 0.1s;
+  }
+
+  span:nth-child(3) {
+    animation-delay: 0.2s;
+  }
+
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+
+    100% {
+      transform: translateY(-0.2rem);
+    }
+  }
+}
