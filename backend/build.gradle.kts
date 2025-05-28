@@ -40,6 +40,10 @@ dependencies {
     // DevTools
     developmentOnly("org.springframework.boot:spring-boot-devtools")
 
+    // Lombok
+    compileOnly("org.projectlombok:lombok:1.18.28")
+    annotationProcessor("org.projectlombok:lombok:1.18.28")
+
     // Testing
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
