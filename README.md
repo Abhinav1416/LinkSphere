@@ -1,6 +1,6 @@
 # LinkSphere — Full-Stack Professional Networking Platform
 
-LinkSphere is a full-stack LinkedIn clone designed to demonstrate scalable, secure, and production-ready web application skills. Built using React.js, Spring Boot, MySQL, and ElasticSearch, this project reflects deep expertise in both frontend and backend development, ideal for software engineering internship opportunities.
+LinkSphere is a full-stack LinkedIn clone designed to demonstrate scalable and secure web application skills. Built using React.js, Spring Boot, MySQL, and ElasticSearch, this project reflects deep expertise in both frontend and backend development.
 
 ## Demo
 
@@ -24,14 +24,13 @@ Each user receives unique recommendations based on their profile and activity pa
 
 - User authentication with Google OAuth and email/password login
 - Email verification and password reset functionality
-- JWT-based access and refresh token handling
+- JWT-based access and refresh token authentication for secure sessions
 - Rich post creation with support for text, images, and files
 - Like and comment functionality with real-time updates
 - Real-time one-on-one messaging using WebSockets
 - Fuzzy user search using ElasticSearch and Apache Lucene
 - Personalized connection suggestions for every user
 - Real-time notifications for likes, comments, and messages
-- Role-based access control and input validation in backend
 - Clean, responsive frontend built with React.js
 
 ## Tech Stack
@@ -57,8 +56,8 @@ Each user receives unique recommendations based on their profile and activity pa
 
 ### Prerequisites
 
-- Java 17 or higher
-- Node.js 16+ and npm
+- Java 21 or higher
+- Node.js 22+ and npm
 - Docker & Docker Compose
 - Google OAuth 2.0 Client ID
 - MySQL running locally or via Docker
