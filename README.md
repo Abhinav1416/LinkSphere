@@ -9,7 +9,7 @@ Users can create posts with text and media. Post owners can edit or delete their
 
 ### Real-Time Chat Application
 ![Chat](./screenshots/chat.png)  
-One-on-one messaging with real-time delivery using WebSockets, complete with timestamps and read receipts.
+One-on-one messaging with real-time delivery using WebSockets, complete with read receipts.
 
 ### Fuzzy User Search
 ![Search](./screenshots/search.png)  
