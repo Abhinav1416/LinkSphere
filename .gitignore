@@ -7,3 +7,4 @@
 
 # Ignore environment variable files
 .env
+backend/bin/main/application.properties
