@@ -1,17 +1,19 @@
 .posts {
   display: grid;
   gap: 1rem;
+  color: #e0e0e0;  // light text color
 
   h1 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
     font-weight: bold;
+    color: #e0e0e0;
   }
 
   .main {
-    background-color: white;
+    background-color: #1e1e1e;          // dark card background
     border-radius: 0.3rem;
-    border: 1px solid #e0e0e0;
+    border: 1px solid #333333;          // subtle dark border
     padding: 1rem;
   }
 

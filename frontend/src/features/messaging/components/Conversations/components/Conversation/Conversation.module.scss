@@ -6,9 +6,11 @@
   padding: 0.7rem;
   width: 100%;
   font-size: 0.9rem;
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid #444444; /* darker border */
   padding-bottom: 1rem;
   position: relative;
+  background-color: #121212; /* dark background */
+  color: #e0e0e0; /* light text */
 
   .unread {
     position: absolute;
@@ -26,7 +28,7 @@
   }
 
   &.selected {
-    background-color: #f5f5f5;
+    background-color: #333333; /* dark selection bg */
   }
 
   .avatar {
@@ -38,6 +40,7 @@
 
   .name {
     font-weight: bold;
+    color: #e0e0e0;
   }
 
   .content {
@@ -47,5 +50,6 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
+    color: #c0c0c0;
   }
 }

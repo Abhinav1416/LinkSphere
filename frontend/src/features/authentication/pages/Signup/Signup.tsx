@@ -56,7 +56,7 @@ export function Signup() {
           />
           {errorMessage && <p className={classes.error}>{errorMessage}</p>}
           <p className={classes.disclaimer}>
-            By clicking Agree & Join or Continue, you agree to LinkedIn's{" "}
+            By clicking Agree & Join or Continue, you agree to LinkSphere's{" "}
             <a href="">User Agreement</a>, <a href="">Privacy Policy</a>, and{" "}
             <a href="">Cookie Policy</a>.
           </p>
@@ -78,7 +78,7 @@ export function Signup() {
           Continue with Google
         </Button>
         <div className={classes.register}>
-          Already on LinkedIn? <Link to="/authentication/login">Sign in</Link>
+          Already on LinkSphere? <Link to="/authentication/login">Sign in</Link>
         </div>
       </Box>
     </div>

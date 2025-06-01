@@ -1,6 +1,7 @@
 .profile {
   display: grid;
   gap: 1rem;
+  color: #e0e0e0; // light text color
 
   .main {
     display: grid;
@@ -10,9 +11,9 @@
   .experience,
   .education,
   .skills {
-    background-color: white;
+    background-color: #1e1e1e;       // dark card background
     border-radius: 0.3rem;
-    border: 1px solid #e0e0e0;
+    border: 1px solid #333333;       // subtle dark border
     overflow: hidden;
     padding: 1rem;
   }
@@ -21,6 +22,7 @@
     font-weight: bold;
     font-size: 1.1rem;
     margin-bottom: 0.5rem;
+    color: #e0e0e0;
   }
 
   .sidebar {

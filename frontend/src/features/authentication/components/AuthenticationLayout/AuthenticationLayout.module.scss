@@ -2,6 +2,8 @@
   display: grid;
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;
+  background-color: #121212; // dark background for whole page
+  color: #ccc; // light text
 
   .container {
     max-width: 74rem;
@@ -16,8 +18,8 @@
   }
 
   header {
-    background: white;
-    border: 1px solid #e0e0e0;
+    background: #1e1e1e; // dark header bg
+    border: 1px solid #333; // darker border
 
     .container {
       padding-block: 1rem;
@@ -26,6 +28,7 @@
     a {
       display: block;
       width: max-content;
+      color: var(--primary-color);
     }
   }
 
@@ -42,15 +45,16 @@
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 1rem;
+    color: #eee;
   }
 
   footer {
     font-size: 0.8rem;
-    background: white;
-    border: 1px solid #e0e0e0;
+    background: #1e1e1e;
+    border: 1px solid #333;
 
     a {
-      color: rgb(0 0 0 / 60%);
+      color: rgb(255 255 255 / 0.6);
       font-weight: normal;
     }
 
@@ -72,6 +76,7 @@
       display: flex;
       gap: 0.5rem;
       align-items: center;
+      color: #ccc;
     }
   }
 }

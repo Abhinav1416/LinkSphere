@@ -2,6 +2,8 @@
   display: grid;
   grid-template-rows: auto auto 1fr auto;
   height: calc(100vh - 12rem);
+  background-color: #121212; // dark background
+  color: #e0e0e0; // light text
 
   &.new {
     height: calc(100vh - 8rem);
@@ -10,11 +12,12 @@
 
   .header {
     padding: 1rem;
-    border-bottom: 1px solid #e0e0e0;
+    border-bottom: 1px solid #333; // dark border
   }
 
   button.back {
-    background-color: #f5f5f5;
+    background-color: #1e1e1e; // dark button bg
+    color: #e0e0e0;
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
@@ -23,7 +26,7 @@
     place-items: center;
 
     &:hover {
-      background-color: #e0e0e0;
+      background-color: #333; // slightly lighter on hover
     }
   }
 
@@ -37,13 +40,14 @@
     align-items: center;
     grid-template-columns: 3rem 1fr;
     gap: 0.5rem;
-    border-bottom: 1px solid #e0e0e0;
+    border-bottom: 1px solid #333; // dark border
     border-radius: 0 0 0.3rem 0.3rem;
 
     .avatar {
       width: 3rem;
       height: 3rem;
       border-radius: 50%;
+      border: 1px solid #444; // subtle border for avatars
     }
   }
 
@@ -51,7 +55,8 @@
     max-height: 17rem;
     overflow-y: auto;
     border-radius: 0.3rem;
-    border: 1px solid #e0e0e0;
+    border: 1px solid #333; // dark border
+    background-color: #1e1e1e;
 
     > button {
       display: flex;
@@ -61,9 +66,10 @@
       font-size: 0.8rem;
       width: 100%;
       padding: 0.5rem;
+      color: #e0e0e0;
 
       &:not(:last-child) {
-        border-bottom: 1px solid #e0e0e0;
+        border-bottom: 1px solid #333;
       }
     }
   }
@@ -75,6 +81,7 @@
       width: 3rem;
       height: 3rem;
       border-radius: 50%;
+      border: 1px solid #444;
     }
 
     .top {
@@ -84,7 +91,8 @@
     }
 
     .close {
-      background-color: #f5f5f5;
+      background-color: #1e1e1e;
+      color: #e0e0e0;
       width: 2rem;
       height: 2rem;
       border-radius: 50%;
@@ -93,7 +101,7 @@
       place-items: center;
 
       &:hover {
-        background-color: #e0e0e0;
+        background-color: #333;
       }
     }
 
@@ -104,9 +112,15 @@
         width: 100%;
         height: 4rem;
         padding: 1rem;
-        border: 1px solid #e0e0e0;
+        border: 1px solid #333;
         border-radius: 0.3rem;
         margin-bottom: 1rem;
+        background-color: #222;
+        color: #e0e0e0;
+
+        &::placeholder {
+          color: #777;
+        }
       }
 
       button.send {
@@ -128,9 +142,9 @@
         }
 
         &[disabled] {
-          background-color: #e0e0e0;
+          background-color: #555;
           cursor: not-allowed;
-          color: black;
+          color: #bbb;
         }
       }
     }
@@ -150,6 +164,7 @@
 
     .welcome {
       padding: 1.5rem 2rem;
+      color: #e0e0e0;
     }
   }
 }

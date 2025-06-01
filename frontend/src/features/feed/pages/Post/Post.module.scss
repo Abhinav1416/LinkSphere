@@ -1,6 +1,8 @@
 .root {
   display: grid;
   gap: 2rem;
+  background-color: #1e1e1e;     // dark background
+  color: #ccc;                   // lighter text for readability
 
   .left,
   .right {

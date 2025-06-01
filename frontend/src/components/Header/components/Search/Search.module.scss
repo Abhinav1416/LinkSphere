@@ -6,13 +6,13 @@
     top: 100%;
     left: 0;
     right: 0;
-    background-color: white;
-    border: 1px solid #e0e0e0;
+    background-color: #1e1e1e;
+    border: 1px solid #444;
     border-radius: 0 0 0.3rem 0.3rem;
     z-index: 999;
     max-height: 16rem;
     overflow-y: auto;
-    box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
   }
 
   .suggestion {
@@ -22,14 +22,16 @@
       gap: 0.5rem;
       padding: 0.5rem;
       width: 100%;
+      background: none;
+      color: #f0f0f0;
 
       &:hover {
-        background-color: #f9f9f9;
+        background-color: #333;
       }
     }
 
     &:not(:last-child) {
-      border-bottom: 1px solid #e0e0e0;
+      border-bottom: 1px solid #444;
     }
 
     .avatar {
@@ -46,6 +48,7 @@
 
     .name {
       font-weight: bold;
+      color: #fff;
     }
   }
 }

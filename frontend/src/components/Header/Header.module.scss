@@ -1,7 +1,7 @@
 .root {
-  border: 1px solid #e0e0e0;
-  background-color: white;
-  color: rgb(0 0 0 / 60%);
+  border: 1px solid #444;             // darker border for dark bg
+  background-color: #121212;          // dark background
+  color: rgb(255 255 255 / 80%);     // light text with some opacity
   font-size: 0.9rem;
   position: sticky;
   top: 0;
@@ -41,8 +41,8 @@
     position: absolute;
     top: 5rem;
     right: 1rem;
-    background-color: white;
-    border: 1px solid #e0e0e0;
+    background-color: #1e1e1e;        // dark nav background
+    border: 1px solid #444;
     border-radius: 0.3rem;
     padding: 1rem;
     width: min(18rem, 100%);
@@ -54,9 +54,10 @@
     display: flex;
     align-items: center;
     gap: 1rem;
+    color: rgb(255 255 255 / 80%);   // light links
 
     &:hover {
-      color: black;
+      color: #fff;
     }
   }
 

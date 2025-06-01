@@ -1,4 +1,7 @@
 .root {
+  background-color: #121212;
+  color: #e0e0e0;
+
   .logo {
     width: 7rem;
   }
@@ -9,10 +12,24 @@
 
   form {
     margin-top: 1rem;
+
+    input,
+    textarea {
+      background-color: #1e1e1e;
+      border: 1px solid #333;
+      color: #e0e0e0;
+
+      &:focus {
+        border-color: var(--primary-color);
+        outline: none;
+        box-shadow: 0 0 5px var(--primary-color);
+      }
+    }
   }
 
   .disclaimer {
     font-size: 0.7rem;
+    color: #bbb;
   }
 
   .register {
@@ -20,7 +37,7 @@
   }
 
   .error {
-    color: red;
+    color: #ff6b6b;
     margin-bottom: 1rem;
   }
 }

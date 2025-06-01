@@ -8,9 +8,10 @@
   }
 
   .center {
-    background-color: white;
+    background-color: #1e1e1e;  // dark background
     border-radius: 0.3rem;
-    border: 1px solid #e0e0e0;
+    border: 1px solid #333;      // darker border
+    color: #ccc;                 // lighter text
   }
 
   .notification {
@@ -19,20 +20,22 @@
     gap: 0.5rem;
     padding: 1rem;
     width: 100%;
+    color: #ddd;                 // text color for notifications
 
     &:not(:last-child) {
       padding-bottom: 1rem;
-      border-bottom: 1px solid #e0e0e0;
+      border-bottom: 1px solid #333;  // darker border
     }
 
     &.unread {
-      background-color: #f0f0f0;
+      background-color: #333;    // darker highlight for unread
     }
 
     .avatar {
       width: 40px;
       height: 40px;
       border-radius: 50%;
+      border: 1px solid #555;    // subtle border for contrast
     }
   }
 

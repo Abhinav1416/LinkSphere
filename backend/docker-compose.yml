@@ -4,7 +4,7 @@ services:
   mysql:
     image: mysql:9.1.0
     environment:
-      MYSQL_DATABASE: linkedin
+      MYSQL_DATABASE: LinkSphere
       MYSQL_ROOT_PASSWORD: root
     ports:
       - '3306:3306'

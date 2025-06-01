@@ -1,6 +1,8 @@
 .root {
   main {
     padding: 0 4rem;
+    background-color: #121212; /* dark background */
+    color: #e0e0e0; /* light text */
   }
 
   form {
@@ -9,14 +11,16 @@
 
   .disclaimer {
     font-size: 0.7rem;
+    color: #aaa; /* lighter text for disclaimers */
   }
 
   .register {
     text-align: center;
+    color: #ccc;
   }
 
   .error {
-    color: red;
+    color: #ff6b6b; /* a softer red for dark mode */
     margin-bottom: 1rem;
   }
 }

@@ -4,8 +4,14 @@
   margin-block: 1rem;
 
   input {
-    border: 1px solid #6f6f6f99;
+    background-color: #222;
+    color: #eee;
+    border: 1px solid #555;
     border-radius: 4px;
+
+    &::placeholder {
+      color: #888;
+    }
   }
 
   &.large input {

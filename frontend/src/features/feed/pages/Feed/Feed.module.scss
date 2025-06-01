@@ -16,9 +16,9 @@
   }
 
   .posting {
-    background-color: white;
+    background-color: #1e1e1e;  // dark background
     border-radius: 0.3rem;
-    border: 1px solid #e0e0e0;
+    border: 1px solid #333;      // darker border
     padding: 1rem;
     display: grid;
     grid-template-columns: 5rem 1fr;
@@ -28,11 +28,13 @@
       width: 5rem;
       height: 5rem;
       border-radius: 50%;
+      /* Optionally add a subtle border for contrast */
+      border: 1px solid #444;
     }
   }
 
   .error {
-    color: red;
+    color: #ff6b6b; // softer red for dark background
   }
 
   @media screen and (width >= 1135px) {

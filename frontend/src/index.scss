@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #0a66c2;
-  --primary-color-dark: #004182;
+  --primary-color: #3b82f6;      /* bright blue */
+  --primary-color-dark: #1e40af; /* darker blue */
 }
 
 * {
@@ -8,12 +8,12 @@
   padding: 0;
   box-sizing: border-box;
   font: inherit;
-  color: inherit;
+  color: #e0e0e0;                /* light text */
 }
 
 html {
   font-family: Poppins, sans-serif;
-  background-color: #f4f2ee;
+  background-color: #121212;     /* dark background */
   overflow-x: hidden;
 }
 
@@ -29,10 +29,12 @@ button {
   background-color: transparent;
   cursor: pointer;
   text-align: left;
+  color: #e0e0e0;                /* light text for buttons */
 }
 
 a {
   text-decoration: none;
+  color: var(--primary-color);  /* bright accent */
 }
 
 ul {
@@ -41,4 +43,5 @@ ul {
 
 strong {
   font-weight: 600;
+  color: #ffffffcc;              /* slightly transparent white */
 }

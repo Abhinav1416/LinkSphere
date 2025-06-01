@@ -61,7 +61,7 @@ export function ResetPassword() {
             }}
           >
             <p>
-              Enter your email and we’ll send a verification code if it matches an existing LinkedIn
+              Enter your email and we’ll send a verification code if it matches an existing LinkSphere
               account.
             </p>
             <Input key="email" name="email" type="email" label="Email" />
