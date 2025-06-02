@@ -13,7 +13,7 @@ One-on-one messaging with real-time delivery using WebSockets, complete with rea
 
 ### Fuzzy User Search
 ![Search](./screenshots/search.png)  
-ElasticSearch-powered user search with fuzzy and partial match support.
+ElasticSearch-powered user search with typo tolerance and autocomplete-style partial match support.
 
 ### Personalized Connection Recommendations
 ![Recommendations](./screenshots/recommendations.png)  
