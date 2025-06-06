@@ -72,7 +72,7 @@ Create a Google OAuth 2.0 Client ID from the [Google Developer Console](https://
 2. **Start the backend:**
    ```bash
    cd backend
-   docker-compose up -d
+   docker-compose up
    ```
 
 3. **Run the Backend:**
